@@ -32,7 +32,7 @@ jobs:
       - name: 开始
         run: |
           pip3 install requests
-          user='${{ secrets.2421727025 }}'
+          user='${{ secrets.2421727025@qq.com }}'
           passwd='${{ secrets.wj20001022 }}'
           skey='${{ secrets.NO }}'
           sckey='${{ secrets.NO }}'
