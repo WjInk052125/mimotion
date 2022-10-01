@@ -12,7 +12,7 @@
 #     time=$(($RANDOM%10))" 11 * * *"
 # elif [[ $(date '+%H') == 11 ]];then
 #     time=$(($RANDOM%5))" 13 * * *"
-# elif [[ $(date '+%H') == 13 ]];then
+# elif [[ $(date '+%H') == 14 ]];then
 #     time=$(($RANDOM%10))" 0 * * *"
 # else
 #     time=$(($RANDOM%10))" 0,2,5,7,9,11,13 * * *"
